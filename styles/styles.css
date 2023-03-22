@@ -1,11 +1,11 @@
-body {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+body { 
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 
 
-.headerbar {
+.header {
     display: flex;
     margin: 0px;
     padding-top: 10px;
@@ -14,13 +14,13 @@ body {
     padding-right: 50px;
     align-items: center;
     background-color: #1F2937;
+    justify-content: space-between;
 }
 
 .logo {
     font-size: 24px;
     color: #F9FAF8;
     font-weight: bold;
-    flex: 1 1 auto;
 }
 
 .headerlinks {
@@ -33,3 +33,46 @@ body {
     text-decoration: none;
     color: #F9FAF8;
 }
+
+.awesome {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    width: 425px;
+}
+
+.subheader {
+    background-color: #1F2937;
+    padding-top: 75px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;  
+
+}
+
+.awesomedesc {
+    font-size: 18px;
+    color: #F9FAF8;
+    max-width: 450px;
+ 
+}
+
+.signup {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 8px;
+    border: 0;
+    padding: 8px;
+    width: 100px;
+    font-weight: bold;
+    margin-top: 10px;
+
+}
+
+.placeholderimage {
+ 
+
+}
+
+/* Allows me to see boxes for better visual building */
+* { border: 1px solid red; }
