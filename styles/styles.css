@@ -8,9 +8,11 @@ body {
 .headerbar {
     display: flex;
     margin: 0px;
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
     align-items: center;
-    justify-content: space-between;
     background-color: #1F2937;
 }
 
@@ -18,10 +20,7 @@ body {
     font-size: 24px;
     color: #F9FAF8;
     font-weight: bold;
-}
-
-.headerlinkcontainer {
-    display: flex;
+    flex: 1 1 auto;
 }
 
 .headerlinks {
